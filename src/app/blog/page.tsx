@@ -81,7 +81,7 @@ return (
                 {blog.readMoreLink}
               </button>
             </div>
-          ))}
+          ))};
         </div>
 
         <div className="lg:w-1/4 w-full flex flex-col items-start mt-6 lg:mt-0">
