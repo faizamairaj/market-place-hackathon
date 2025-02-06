@@ -1,9 +1,10 @@
+
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { User, Search, Heart, ShoppingCart } from 'lucide-react';
 
-const Navbar = () => {
+const Header = () => {
   return (
     <div className="w-full h-20 flex justify-evenly items-center px-6 lg:px-10">
       
@@ -14,7 +15,7 @@ const Navbar = () => {
       </div>
 
       {/* Navigation Links */}
-      <ul className="hidden md:flex gap-8 lg:gap-16 text-black font-bold">
+      <ul className=" md:flex gap-8 lg:gap-16 text-black font-bold">
         <li>
           <Link href="/">Home</Link>
         </li>
@@ -28,7 +29,7 @@ const Navbar = () => {
           <Link href="/contact">Contact</Link>
         </li>
         <li>
-          <Link href="/shopnow">ShopNow</Link>
+          <Link href="/shopnow">Shopnow</Link>
         </li>
       </ul>
 
@@ -44,12 +45,8 @@ const Navbar = () => {
         </Link>
       </div>
 
-      {/* Mobile Menu (Hamburger) */}
-      <div className="md:hidden">
-        <button className="text-black font-bold">☰</button>
-      </div>
+     
     </div>
   );
 };
-
-export default Navbar;
+export default Header;
