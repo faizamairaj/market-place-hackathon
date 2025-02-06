@@ -9,7 +9,7 @@ export default function BlogAbout() {
       date: "10 Oct 2022",
       author: "Admin",
       category: "Wood",
-      image: "/card2-img.png", 
+      image: "/card15-img.png", 
       description: "Lorem ipsumipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et doloreipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et doloreipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. magna aliqua. magna aliqua. dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       readMoreLink: "Read more",
     },
@@ -18,7 +18,7 @@ export default function BlogAbout() {
       date: "10 Oct 2022",
       author: "Admin",
       category: "Interior",
-      image: "/card5-img.png",
+      image: "/card16-img.png",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       readMoreLink: "Read more",
     },
@@ -27,7 +27,7 @@ export default function BlogAbout() {
       date: "10 Oct 2022",
       author: "Admin",
       category: "Wood",
-      image: "/card8-img.png",
+      image: "/card17-img.png",
       description: "Lorem ipsum dolor sit amet,ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.labore et dolore magna aliqua. consectetur adipiscing elit. Integer nec odio.",
       readMoreLink: "Read more",
     },
@@ -36,23 +36,23 @@ export default function BlogAbout() {
   const Images =[
     {
         title: "Going all-in with millennial design",
-       image: '/card1-img.png'
+       image: '/card18-img.png'
     },
     {
         title: "Exploring new ways of decorating",
-        image: '/card2-img.png'
+        image: '/card19-img.png'
     },
     {
         title: "Handmade pieces that took time to make",
-        image: '/card3-img.png'
+        image: '/card20-img.png'
     },
     {
         title: 'Modern Home in Milan',
-        image: '/card4-img.png'
+        image: '/card21-img.png'
     },
     {
         title: "Colorful Office Redesigned",
-        image: '/card5-img.png'
+        image: '/card22-img.png'
     },
 ]
 return (
